@@ -6,6 +6,10 @@
     font-family: Lato, sans-serif;
 }
 
+header{   
+    background-color: #FCEEF1;
+}
+
 .container{
     width: 75%;
     max-width: 1440px;
@@ -59,10 +63,11 @@ button:hover{
 }
 
 .ft-second{
+    width: 75%;
+    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
 }
 
 .featured{
@@ -73,8 +78,8 @@ button:hover{
 }
 
 .flower-img{
-    width: 260px;
-    height: 300px;
+    width: 220px;
+    height: 250px;
 }
 
 .flower>p{
@@ -85,28 +90,54 @@ button:hover{
 
 .flower-one{
     background-color: rgb(244, 202, 211);
-    padding: 45px 20px;
+    padding: 75px 45px;
     border-radius: 50% 50% 0px 0px;
     -webkit-border-radius: 50% 50% 0px 0px;
     -moz-border-radius: 50% 50% 0px 0px;
     -ms-border-radius: 50% 50% 0px 0px;
     -o-border-radius: 50% 50% 0px 0px;
 }
+
 .flower-two{
     background-color: rgb(181, 223, 240);
-    padding: 45px 20px;
+    padding: 75px 45px;
     border-radius: 50% 50% 0px 0px;
     -webkit-border-radius: 50% 50% 0px 0px;
     -moz-border-radius: 50% 50% 0px 0px;
     -ms-border-radius: 50% 50% 0px 0px;
     -o-border-radius: 50% 50% 0px 0px;
 }
+
 .flower-three{
     background-color: rgb(186, 184, 184);
-    padding: 45px 20px;
+    padding: 75px 45px;
     border-radius: 50% 50% 0 0;
     -webkit-border-radius: 50% 50% 0 0;
     -moz-border-radius: 50% 50% 0 0;
     -ms-border-radius: 50% 50% 0 0;
     -o-border-radius: 50% 50% 0 0;
 }
+
+/* Delivery process */
+
+.delivery-container{
+    width: 75%;
+    max-width: 1440px;
+    overflow: hidden;
+    background-color: #FCEEF1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    padding: 56px 0px;
+    margin: 66px auto;
+}
+
+.delivery, .fresh-flower, .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hot deal */
