@@ -141,3 +141,27 @@ button:hover{
 }
 
 /* Hot deal */
+ 
+.hot-deal{
+    background-color: #FCEEF1;
+    padding: 26px 0px;
+}
+
+.hot-text *{
+ margin: 12px 0px;
+ text-align: center;
+}
+
+.hot-text> h1{
+    font-weight: 900;
+}
+
+.hot-off-text{
+    color: #E55473;
+}
+
+.hot-btn{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
