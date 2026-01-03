@@ -35,7 +35,7 @@ header{
 }
 
 .banner-first *{
-    margin-bottom: 26px;
+    margin-bottom: 56px;
 }
 
 
@@ -71,7 +71,7 @@ button:hover{
 }
 
 .featured{
-    margin-top: 66px;
+    margin-top: 56px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,13 +124,13 @@ button:hover{
     width: 75%;
     max-width: 1440px;
     overflow: hidden;
-    background-color: #FCEEF1;
+    background-color: #e2dedf;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 55px;
     padding: 56px 0px;
-    margin: 66px auto;
+    margin: 56px auto;
 }
 
 .delivery, .fresh-flower, .contact{
@@ -145,6 +145,7 @@ button:hover{
 .hot-deal{
     background-color: #FCEEF1;
     padding: 26px 0px;
+    margin-bottom: 56px;
 }
 
 .hot-text *{
@@ -164,4 +165,70 @@ button:hover{
     display: flex;
     justify-content: center;
     margin: 0px auto;
+}
+
+/* Instagram content */
+
+.Insta-container{
+    width: 75%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto 56px;
+}
+
+.Insta-first{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.Insta-first *{
+    margin: 6px 0px;
+}
+
+.Insta-second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.Insta-second> img{
+    width: 230px;
+    height: 280px;
+}
+
+/* newsletter */
+
+.newsletter-bg{
+    background-image: url("../flower-asset/Rectangle 9.png");
+
+}
+
+.newsl-heading{
+    margin-top: 56px;
+}
+
+.Insta-container>form{
+    margin: 0px auto 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form>input{
+    padding: 16px 12px;
+    width: 450px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: white;
+    border: none;
+    outline: none;
 }
