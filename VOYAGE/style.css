@@ -81,6 +81,7 @@ nav ul li a:hover {
   align-items: center;
   text-align: center;
   margin-top: 170px;
+  color: white;
 }
 
 .title {
@@ -93,6 +94,7 @@ nav ul li a:hover {
 }
 
 .callout {
+  color: white;
   width: 300px;
   height: 50px;
   font-size: 20px;
@@ -100,7 +102,7 @@ nav ul li a:hover {
   background-color: transparent;
   margin-top: 20px;
   cursor: pointer;
-  transition:  0.5s;
+  transition: 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -114,21 +116,46 @@ nav ul li a:hover {
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
   background-color: black;
-  color: white;
 }
 
 .upanddown {
+  margin-top: 38px;
   animation-name: scrolldown;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
-@keyframes scrolldown{
-    0%, 
-    100%{
-        margin-top: 30px;
-    }
-    50%{
-        margin-top: 40px;
-    }
+@keyframes scrolldown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.features{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.features h2{
+  font-size: 35px;
+  margin-top: 60px;
+  font-weight: 600;
+}
+
+.small-divider{
+width: 10%;
+border-top: 2px solid var(--accent);
+margin-top: 20px;
+}
+
+.boxes{
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
 }
