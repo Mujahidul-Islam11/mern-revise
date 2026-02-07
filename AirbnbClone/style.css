@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 35px;
+}
+
+.logo {
+  width: 110px;
+  height: 60px;
+}
+
+.house {
+  width: 55px;
+  height: 55px;
+}
+
+.ballon {
+  width: 45px;
+  height: 45px;
+}
+
+.bell {
+  width: 45px;
+  height: 45px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #393939;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  margin-left: 35px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+sup {
+  font-size: 10px;
+  color: #fff;
+  background-color: rgb(58, 58, 116);
+  border-radius: 50%;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  margin-top: -40px;
+  margin-left: -5px;
+}
+
+a > .text {
+  margin-left: -24px;
+}
+
+#active {
+  border-bottom: 3px solid #393939;
+  border-radius: 2px;
+  font-weight: 600;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.host-btn {
+  padding: 12px 15px;
+  border: none;
+  background-color: transparent;
+}
+
+.host-btn:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.globe {
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.globe:hover {
+  cursor: pointer;
+
+}
+
+.menu {
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.menu:hover {
+  cursor: pointer;
+
+}
+
